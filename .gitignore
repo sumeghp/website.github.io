@@ -1,2 +1,8 @@
 .DS_Store
 *.icloud
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.jekyll-cache
+.jekyll-cache
