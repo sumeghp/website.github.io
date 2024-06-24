@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+ 	<head>
+
+ 		<title>aalok thakkar |  404 </title>
+
+ 		<link rel="stylesheet" href="./webpage_files/style.css" type="text/css" media="screen">
+         <style>
+            #quote-container {
+                font-size: 14px;
+                text-align: center;
+                margin: 20px;
+            }
+        </style>
+
+ 	</head>
+
+ 	<body>
+
+        <div id="content">
+            <h1>
+                <a href="./index.html">aalok thakkar</a>: <strong>error 404</strong>
+            </h1>
+
+
+            <div style="text-align: center;">
+                <form action="aalok1996@gmail.com" method="post" enctype="text/plain">
+                    <label for="broken-link">Report Broken Link:</label><br>
+                    <input type="text" id="broken-link" name="Broken Link" placeholder="Paste the broken URL here" required><br>
+                    <input type="submit" value="Submit Report">
+                </form>
+            </div>
+
+            <div id="quote-container"></div>
+
+        </div>
+
+ 		<div id="footer">
+
+			<p>
+				<a href="./index.html">
+					main
+				</a>
+				 :: 
+				<a href="./publications.html">
+					publications
+				</a>
+				:: 
+				<a href="./projects.html">
+					projects
+				</a>
+				:: 
+				<a href="./contact.html">
+					contact
+				</a>
+				:: 
+				<a href="./teaching.html">
+					teaching
+				</a>
+				 :: 
+				<a href="./more.html">
+					more
+				</a>
+			</p>
+
+ 		</div>
+
+         <script>
+            const quotes = [
+                `sirf ek qadam utha tha ghalat rah-e-shauq men <br> manzil tamam umr mujhe dhundhti rahi <br> - Abdul Hamid Adam`,
+                `koi manzil ke qarib aa ke bhatak jaata hai <br> koi manzil pe pahunchta hai bhatak jaane se <br> - Qasri Kanpuri`,
+            ];
+    
+            function displayRandomQuote() {
+                const quoteContainer = document.getElementById('quote-container');
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                quoteContainer.innerHTML = quotes[randomIndex];
+            }
+    
+            displayRandomQuote();
+            setInterval(displayRandomQuote, 5000);
+        </script>
+
+ 	</body>
+
+ </html>
+ 
