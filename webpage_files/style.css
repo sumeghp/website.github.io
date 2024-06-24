@@ -82,29 +82,28 @@ li{line-height: 18px; padding: 6px 0 0 0;}
   clear: both;
 }
 
-.table1 {
+.calendar {
 	border-collapse: collapse;
 	border: 1px solid black;
-  }
-  
-  .table1 th,
-  .table1 td {
+}
+.calendar th,
+.calendar td { border: 1px solid black; }
+.calendar tr { height: 100px; }
+.calendar tr:first-child { height: 20px; }
+.calendar td { 
+	width: 110px;
+	text-align: left; 
+	vertical-align: top; 
+}
+
+.cage {
+	border-collapse: collapse;
 	border: 1px solid black;
-  }
-  
-  .table1 tr {
-	height: 100px;
-  }
-  
-  .table1 tr:first-child {
-	height: 20px;
-  }
-  
-  .table1 td {
-	width: 150px;
-	text-align: left;
-	vertical-align: top;
-  }
+	margin-left: auto;
+	margin-right: auto;
+}
+.cage th,
+.cage td { border: 1px solid black; }
   
 /* for iPad-sized devices */
 @media only screen and (max-device-width: 800px) { 
