@@ -27,6 +27,7 @@
                 <form action="aalok1996@gmail.com" method="post" enctype="text/plain">
                     <label for="broken-link">Report Broken Link:</label><br>
                     <input type="text" id="broken-link" name="Broken Link" placeholder="Paste the broken URL here" required><br>
+                    <input type="text" id="source" name="Source" placeholder="Paste the URL source here"><br>
                     <input type="submit" value="Submit Report">
                 </form>
             </div>
@@ -69,6 +70,11 @@
             const quotes = [
                 `sirf ek qadam utha tha ghalat rah-e-shauq men <br> manzil tamam umr mujhe dhundhti rahi <br> - Abdul Hamid Adam`,
                 `koi manzil ke qarib aa ke bhatak jaata hai <br> koi manzil pe pahunchta hai bhatak jaane se <br> - Qasri Kanpuri`,
+                `na mila tira pata to mujhe log kya kahenge <br> yunhi dar-ba-dar raha to mujhe log kya kahenge <br> - Betab Lakhnavi`,
+                `hum wahan hain jahan se hum ko bhi <br> kuchh hamari khabar nahin aati <br> - Mirza Ghalib`,
+                `kisi ko ghar se nikalte hii mil gai manzil <br> koi hamaari tarah umr bhar safar men raha <br> - Ahmad Faraz`,
+                `nahin nigaah men manzil to justujuu hi sahi <br> nahin visaal mayassar to aarzu hi sahi <br> - Faiz Ahmad Faiz`,
+                `mire raahbar mujh ko gumraah kar de <br> suna hai ki manzil qarib aa gai hai <br> - Khumar Barabankavi`,
             ];
     
             function displayRandomQuote() {
@@ -78,7 +84,7 @@
             }
     
             displayRandomQuote();
-            setInterval(displayRandomQuote, 5000);
+            setInterval(displayRandomQuote, 6000);
         </script>
 
  	</body>
