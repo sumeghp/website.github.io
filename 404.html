@@ -1,93 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
+<html>
+  <head>
+    <title>aalok thakkar | 404</title>
 
- 	<head>
+    <link
+      rel="stylesheet"
+      href="https://aalok-thakkar.github.io/webpage_files/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <style>
+      #quote-container {
+        font-size: 14px;
+        text-align: center;
+        margin: 20px;
+      }
+    </style>
+  </head>
 
- 		<title>aalok thakkar |  404 </title>
+  <body>
+    <div id="content">
+      <h1>
+        <a href="./index.html">aalok thakkar</a>: <strong>error 404</strong>
+      </h1>
 
- 		<link rel="stylesheet" href="https://aalok-thakkar.github.io/webpage_files/style.css" type="text/css" media="screen">
-         <style>
-            #quote-container {
-                font-size: 14px;
-                text-align: center;
-                margin: 20px;
-            }
-        </style>
+      <div style="text-align: center">
+        <form action="aalok1996@gmail.com" method="post" enctype="text/plain">
+          <label for="broken-link">Report Broken Link:</label><br />
+          <input
+            type="text"
+            id="broken-link"
+            name="Broken Link"
+            placeholder="Paste the broken URL here"
+            required
+          /><br />
+          <input
+            type="text"
+            id="source"
+            name="Source"
+            placeholder="Paste the URL source here"
+          /><br />
+          <input type="submit" value="Submit Report" />
+        </form>
+      </div>
 
- 	</head>
+      <div id="quote-container"></div>
+    </div>
 
- 	<body>
+    <div id="footer">
+      <p>
+        <a href="https://aalok-thakkar.github.io/index.html"> main </a>
+        ::
+        <a href="https://aalok-thakkar.github.io/publications.html">
+          publications
+        </a>
+        ::
+        <a href="https://aalok-thakkar.github.io/research.html"> research </a>
+        ::
+        <a href="https://aalok-thakkar.github.io/contact.html"> contact </a>
+        ::
+        <a href="https://aalok-thakkar.github.io/teaching.html"> teaching </a>
+        ::
+        <a href="https://aalok-thakkar.github.io/more.html"> more </a>
+      </p>
+    </div>
 
-        <div id="content">
-            <h1>
-                <a href="./index.html">aalok thakkar</a>: <strong>error 404</strong>
-            </h1>
+    <script>
+      const quotes = [
+        `sirf ek qadam utha tha ghalat rah-e-shauq men <br> manzil tamam umr mujhe dhundhti rahi <br> - Abdul Hamid Adam`,
+        `koi manzil ke qarib aa ke bhatak jaata hai <br> koi manzil pe pahunchta hai bhatak jaane se <br> - Qasri Kanpuri`,
+        `na mila tira pata to mujhe log kya kahenge <br> yunhi dar-ba-dar raha to mujhe log kya kahenge <br> - Betab Lakhnavi`,
+        `hum wahan hain jahan se hum ko bhi <br> kuchh hamari khabar nahin aati <br> - Mirza Ghalib`,
+        `kisi ko ghar se nikalte hii mil gai manzil <br> koi hamaari tarah umr bhar safar men raha <br> - Ahmad Faraz`,
+        `nahin nigaah men manzil to justujuu hi sahi <br> nahin visaal mayassar to aarzu hi sahi <br> - Faiz Ahmad Faiz`,
+        `mire raahbar mujh ko gumraah kar de <br> suna hai ki manzil qarib aa gai hai <br> - Khumar Barabankavi`,
+      ];
 
+      function displayRandomQuote() {
+        const quoteContainer = document.getElementById("quote-container");
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        quoteContainer.innerHTML = quotes[randomIndex];
+      }
 
-            <div style="text-align: center;">
-                <form action="aalok1996@gmail.com" method="post" enctype="text/plain">
-                    <label for="broken-link">Report Broken Link:</label><br>
-                    <input type="text" id="broken-link" name="Broken Link" placeholder="Paste the broken URL here" required><br>
-                    <input type="text" id="source" name="Source" placeholder="Paste the URL source here"><br>
-                    <input type="submit" value="Submit Report">
-                </form>
-            </div>
-
-            <div id="quote-container"></div>
-
-        </div>
-
- 		<div id="footer">
-
-			<p>
-				<a href="https://aalok-thakkar.github.io/index.html">
-					main
-				</a>
-				 :: 
-				<a href="https://aalok-thakkar.github.io/publications.html">
-					publications
-				</a>
-				:: 
-				<a href="https://aalok-thakkar.github.io/research.html">
-					research
-				</a>
-				:: 
-				<a href="https://aalok-thakkar.github.io/contact.html">
-					contact
-				</a>
-				:: 
-				<a href="https://aalok-thakkar.github.io/teaching.html">
-					teaching
-				</a>
-				 :: 
-				<a href="https://aalok-thakkar.github.io/more.html">
-					more
-				</a>
-			</p>
-
- 		</div>
-
-         <script>
-            const quotes = [
-                `sirf ek qadam utha tha ghalat rah-e-shauq men <br> manzil tamam umr mujhe dhundhti rahi <br> - Abdul Hamid Adam`,
-                `koi manzil ke qarib aa ke bhatak jaata hai <br> koi manzil pe pahunchta hai bhatak jaane se <br> - Qasri Kanpuri`,
-                `na mila tira pata to mujhe log kya kahenge <br> yunhi dar-ba-dar raha to mujhe log kya kahenge <br> - Betab Lakhnavi`,
-                `hum wahan hain jahan se hum ko bhi <br> kuchh hamari khabar nahin aati <br> - Mirza Ghalib`,
-                `kisi ko ghar se nikalte hii mil gai manzil <br> koi hamaari tarah umr bhar safar men raha <br> - Ahmad Faraz`,
-                `nahin nigaah men manzil to justujuu hi sahi <br> nahin visaal mayassar to aarzu hi sahi <br> - Faiz Ahmad Faiz`,
-                `mire raahbar mujh ko gumraah kar de <br> suna hai ki manzil qarib aa gai hai <br> - Khumar Barabankavi`,
-            ];
-    
-            function displayRandomQuote() {
-                const quoteContainer = document.getElementById('quote-container');
-                const randomIndex = Math.floor(Math.random() * quotes.length);
-                quoteContainer.innerHTML = quotes[randomIndex];
-            }
-    
-            displayRandomQuote();
-            setInterval(displayRandomQuote, 10000);
-        </script>
-
- 	</body>
-
- </html>
- 
+      displayRandomQuote();
+      setInterval(displayRandomQuote, 10000);
+    </script>
+  </body>
+</html>
